@@ -1,12 +1,9 @@
-import './App.css';
-import HomePage from './components/HomePage/HomePage.js';
+import HomePage from './components/HomePage/HomePage.jsx';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      {/* <header className="App-header"> */}
+    <div>
       <HomePage />
-      {/* </header> */}
     </div>
   );
 }
